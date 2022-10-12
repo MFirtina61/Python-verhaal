@@ -42,11 +42,7 @@ def optie_huis():
 
    # O wachten
 def optie_wacht():
-    ei = 0
     print("Je bent aan het wachten en je ziet de perfecte moment!")
-    time.sleep
-    ei += 1
-    print("Je hebt" + str(ei) + "ei")
     time.sleep(2)
     print("Je rent zo snel mogelijk en je neemt de ei mee!!! ")
     print(ei = 1)
