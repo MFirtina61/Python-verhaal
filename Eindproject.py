@@ -8,7 +8,7 @@ antwoord_C = ["C", "c"]
 antwoord_D = ["D", "d"]
 ei = 0
 
-
+#een test
 
     # O T rex ei rennen
 def optie_rennen():
