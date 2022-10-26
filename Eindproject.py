@@ -1,10 +1,12 @@
 from secrets import choice
 import time
+from playsound import playsound
 
 antwoord_A = ["A", "a"]
 antwoord_B = ["B", "b"]
 antwoord_C = ["C", "c"]
 antwoord_D = ["D", "d"]
+ei = 0
 
 
 
@@ -41,11 +43,13 @@ def optie_huis():
 
 
    # O wachten
-def optie_wacht():
+
+def optie_wacht(arg):
     print("Je bent aan het wachten en je ziet de perfecte moment!")
     time.sleep(2)
     print("Je rent zo snel mogelijk en je neemt de ei mee!!! ")
-    print(ei = 1)
+    arg += 1
+    print(arg)
     time.sleep(2)
     print("""Wat ga je doen?
     A. Verder onderzoeken 
@@ -72,16 +76,18 @@ def optie_andererichting():
 
     antwoord = input(">>> ")
     if antwoord in antwoord_A:
+        playsound('ROAR.mp3')
         optie_rennen()
 
     elif antwoord in antwoord_B:
-        optie_wacht()
+        optie_wacht(ei)
 
 # O weg rennen
 def optie_wegrennen():
     print("Je rent zo snel mogelijk weg en dat maakt veel geluid")
     time.sleep(2)
     print("dus de dino rent achter je aan maar de dino is veel sneller")
+    playsound('ROAR.mp3')
     time.sleep(2)
     print("Wil opnieuw?")
     x = input ()
@@ -126,6 +132,7 @@ def optie_dinorichting():
 
     antwoord = input(">>> ")
     if antwoord in antwoord_A:
+        playsound('ROAR.mp3')
         optie_liggen()
 
     elif antwoord in antwoord_B:
