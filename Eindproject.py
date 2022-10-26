@@ -43,6 +43,7 @@ def optie_huis():
 
 
    # O wachten
+
 def optie_wacht(arg):
     print("Je bent aan het wachten en je ziet de perfecte moment!")
     time.sleep(2)
