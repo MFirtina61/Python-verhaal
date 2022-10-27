@@ -37,7 +37,7 @@ def optie_verderonderzoeken():
 def optie_huis():
     print("Je loopt voorzichtig weer terug naar de heuvel en je ziet de deur")
     time.sleep(2)
-    print("Je gaat naar binnen met de ei, iedereen stont op je te wachten jullie vieren met ze allen een feestje")
+    print("Je gaat naar binnen met de ei, iedereen stond op je te wachten jullie vieren met ze allen een feestje")
     time.sleep(2)
     print("Gefeliciteerd je hebt de missie gehaald!!!")
 
@@ -273,7 +273,7 @@ def optie_gegeten():
 def optie_opzoek():
     print("Tijdens het lopen heb je eiren gevonden je hebt het gelijk opgegten")
     time.sleep(2)
-    print("Je hebt de eiren van een Raptor gegeten de Raptor moeder ent achte je aan!")
+    print("Je hebt de eiren van een Raptor gegeten de Raptor moeder rent achter je aan!")
     time.sleep(2)
     print("""Wat ga je doen!
     A. Stil staan
@@ -306,7 +306,7 @@ def optie_wormen():
 
 # S Blijf
 def optie_blijf():
-    print("Je bent uitverhongert!")
+    print("Je bent uitverhongerd!")
     time.sleep(2)
     print("Wil opnieuw?")
     x = input ()
@@ -336,7 +336,7 @@ def optie_schuilen():
 def vraag1():
     print (""" Wat  ga je doen?
     A. Wereld onderzoeken
-    B. Schuilen van de dinio's """)
+    B. Schuilen van de dino's """)
 
     antwoord = input(">>> ")
     if antwoord in antwoord_A:
